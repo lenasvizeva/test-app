@@ -1,0 +1,7 @@
+export { default as App } from './app'
+export { default as Header } from './header'
+export { default as Navigation } from './navigation' 
+export { default as AboutSlider } from './slider' 
+export { default as Accordion } from './accordion' 
+export { default as Footer } from './footer' 
+export { default as News } from './news' 

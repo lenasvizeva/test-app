@@ -1,0 +1,44 @@
+h1, .h1 {
+  font-size: 45px;
+  line-height: 65px;
+  color: $dark-gray;
+}
+
+h2, .h2 {
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 700;
+  color: $dark-gray;
+}
+
+.label {
+  font-size: 18px;
+  line-height: 25px;
+  color: $black;
+  font-weight: 600;
+}
+
+.label2 {
+  font-size: 14px;
+  line-height: 18px;
+  color: $black;
+  font-weight: 300;
+}
+
+p {
+  font-size: 18px;
+  line-height: 25px;
+  color: $black;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+a {
+  color: $black;
+  text-decoration: none;
+  font-weight: 600;
+
+  &:hover {
+    color: $coral;
+  }
+}

@@ -1,0 +1,32 @@
+.navigation {
+  display: inline-flex;
+  list-style-type: none;
+  margin-top: 50px;
+  margin-bottom: 10px;
+
+  li {
+    margin-right: 65px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    a {
+
+      &:after {
+        content: '';
+        display: inline-block;
+        width: 10px;
+        height: 14px;
+        background-image: url('../../images/arrow_down_icon.svg');
+        background-repeat: no-repeat;
+        margin-left: 6px;
+        vertical-align: middle;
+      }
+    }
+  }
+}

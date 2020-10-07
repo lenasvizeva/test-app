@@ -1,0 +1,63 @@
+@import "src/libs/_params";
+
+.slider {
+  position: relative;
+
+  .panel {
+    padding-top: 20px;
+    display: flex;
+
+    .slidesCounter {
+      margin-right: 30px;
+    }
+
+    .sliderLabel {
+      max-width: 568px;
+    }
+  }
+
+  .arrows {
+    position: absolute;
+    top: auto;
+    left: auto;
+    bottom: -62px;
+    right: 0px;
+    transform: none;
+    width: 40px;
+    height: 40px;
+    background: $coral;
+    border-radius: 50%;
+
+    &:hover {
+      cursor: pointer;
+      background: $coral-hover;
+    }
+    
+    &.arrowPrev, &.arrowNext {
+      &:after {
+        content: '';
+        display: block;
+        width: 15px;
+        height: 13px;
+        position: absolute;
+        top: 35%;
+        left: 30%;
+        background-repeat: no-repeat;
+      }
+    }
+
+    &.arrowPrev {
+      right: 50px;
+      &:after {
+        background-image: url('../../images/arrow_left_icon.png');
+      }
+    }
+
+    &.arrowNext {
+      &:after {
+        background-image: url('../../images/arrow_right_icon.png');
+      }
+    }
+  }
+}
+

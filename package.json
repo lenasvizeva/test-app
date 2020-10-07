@@ -1,0 +1,38 @@
+{
+  "name": "test-cp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@n8tb1t/use-scroll-position": "^1.0.47",
+    "cra-template": "1.0.3",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3",
+    "react-scroll": "^1.8.1",
+    "react-select": "^3.1.0",
+    "react-slick": "^0.27.11",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

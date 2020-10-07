@@ -1,0 +1,46 @@
+$content-width-desktop-large: 1440px;
+$content-width-desktop-medium: 1024px;
+$content-width-tablet: 768px; 
+$content-width-mobile: 320px;
+
+$black: #000000;
+$white: #ffffff;
+$dark-gray: #333333;
+$coral: #FF6C6C;
+$dark-blue: #01576C;
+$light-blue: rgba(1, 87, 108, 0.4);
+
+$primary-color: $dark-blue;
+$secondary-color: $coral;
+
+$coral-hover: rgba(255, 108, 108, 0.75);
+$dark-blue-hover: rgba(1, 87, 108, 0.75);
+$light-blue-hover: rgba(1, 87, 108, 0.3);
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/noto-sans/NotoSans-ExtraLight.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/noto-sans/NotoSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/noto-sans/NotoSans-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/noto-sans/NotoSans-Bold.ttf) format('truetype');
+}
