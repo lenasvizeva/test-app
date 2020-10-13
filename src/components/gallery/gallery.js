@@ -62,7 +62,7 @@ class Gallery extends Component {
 
   render() {
     return (
-      this.state.width <= 768 ? <GallerySlider data={data} /> : <Accordion data={data} />
+      this.state.width < 768 ? <GallerySlider data={data} /> : <Accordion data={data} />
     )
   }
 
