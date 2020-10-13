@@ -19,7 +19,7 @@ const Header = () => {
         transform: isVisible ? 'none' : 'translate(0, -100%)'
       }
   
-      if (JSON.stringify(shouldBeStyle) != JSON.stringify(headerStyle)) 
+      if (JSON.stringify(shouldBeStyle) !== JSON.stringify(headerStyle)) 
         return setHeaderStyle(shouldBeStyle)
     },
     [headerStyle]

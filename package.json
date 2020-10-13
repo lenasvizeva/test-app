@@ -2,9 +2,11 @@
   "name": "test-cp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://github.com/lyingunderagreentree/test-app",
   "dependencies": {
     "@n8tb1t/use-scroll-position": "^1.0.47",
     "cra-template": "1.0.3",
+    "gh-pages": "^3.1.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -15,6 +17,8 @@
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
