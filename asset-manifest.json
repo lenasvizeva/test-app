@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/lyingunderagreentree/test-app/static/css/main.364b7df7.chunk.css",
+    "main.js": "/lyingunderagreentree/test-app/static/js/main.cbaa53ac.chunk.js",
+    "main.js.map": "/lyingunderagreentree/test-app/static/js/main.cbaa53ac.chunk.js.map",
+    "runtime-main.js": "/lyingunderagreentree/test-app/static/js/runtime-main.c99ac612.js",
+    "runtime-main.js.map": "/lyingunderagreentree/test-app/static/js/runtime-main.c99ac612.js.map",
+    "static/css/2.3ee02f02.chunk.css": "/lyingunderagreentree/test-app/static/css/2.3ee02f02.chunk.css",
+    "static/js/2.046c18bd.chunk.js": "/lyingunderagreentree/test-app/static/js/2.046c18bd.chunk.js",
+    "static/js/2.046c18bd.chunk.js.map": "/lyingunderagreentree/test-app/static/js/2.046c18bd.chunk.js.map",
+    "index.html": "/lyingunderagreentree/test-app/index.html",
+    "precache-manifest.125da88becd20308ee0c38bf74662d4b.js": "/lyingunderagreentree/test-app/precache-manifest.125da88becd20308ee0c38bf74662d4b.js",
+    "service-worker.js": "/lyingunderagreentree/test-app/service-worker.js",
+    "static/css/2.3ee02f02.chunk.css.map": "/lyingunderagreentree/test-app/static/css/2.3ee02f02.chunk.css.map",
+    "static/css/main.364b7df7.chunk.css.map": "/lyingunderagreentree/test-app/static/css/main.364b7df7.chunk.css.map",
+    "static/js/2.046c18bd.chunk.js.LICENSE.txt": "/lyingunderagreentree/test-app/static/js/2.046c18bd.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/lyingunderagreentree/test-app/static/media/slick.f97e3bbf.svg",
+    "static/media/style.module.scss": "/lyingunderagreentree/test-app/static/media/quote_icon.dcabe403.svg",
+    "static/media/gallery.scss": "/lyingunderagreentree/test-app/static/media/plus_icon.ecf3cff3.svg",
+    "static/media/logo.svg": "/lyingunderagreentree/test-app/static/media/logo.96a4caef.svg",
+    "static/media/news00.jpg": "/lyingunderagreentree/test-app/static/media/news00.c83c6a01.jpg",
+    "static/media/news01.jpg": "/lyingunderagreentree/test-app/static/media/news01.316523c3.jpg",
+    "static/media/news02.jpg": "/lyingunderagreentree/test-app/static/media/news02.42504059.jpg",
+    "static/media/news03.jpg": "/lyingunderagreentree/test-app/static/media/news03.a58236f3.jpg",
+    "static/media/news04.jpg": "/lyingunderagreentree/test-app/static/media/news04.5bb4201b.jpg",
+    "static/media/news05.jpg": "/lyingunderagreentree/test-app/static/media/news05.6a5226d1.jpg",
+    "static/media/news06.jpg": "/lyingunderagreentree/test-app/static/media/news06.2af2501e.jpg",
+    "static/media/news07.jpg": "/lyingunderagreentree/test-app/static/media/news07.15364eeb.jpg",
+    "static/media/news08.jpg": "/lyingunderagreentree/test-app/static/media/news08.4e84eecc.jpg",
+    "static/media/slider_pic.jpg": "/lyingunderagreentree/test-app/static/media/slider_pic.10581d29.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c99ac612.js",
+    "static/css/2.3ee02f02.chunk.css",
+    "static/js/2.046c18bd.chunk.js",
+    "static/css/main.364b7df7.chunk.css",
+    "static/js/main.cbaa53ac.chunk.js"
+  ]
+}
