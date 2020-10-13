@@ -28,7 +28,7 @@ const Header = () => {
   return (
     <div className={css.header} style={{ ...headerStyle }}>
       <button className={cn(css.menuBtn, 'btn --round coral')}></button>
-      <img src={logo} />
+      <img src={logo} className={css.logo} />
       <div className={css.bttnGroup}>
         <button className={cn(css.langBtn, 'btn --round light-blue')}>En</button>
         <button className={cn(css.callBtn, 'btn --round primary-color')}></button>

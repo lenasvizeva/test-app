@@ -1,34 +1,53 @@
 @import '../../libs/_params.scss';
+@import "src/libs/_mixins.scss";
 
 .newsBlock {
 
   .newsBlock__filter {
     display: flex;
-   
-    .select {
-      min-width: 100px; 
-    }
-  
-    .yearSelect > div, 
-    .monthSelect > div {
-      border: none;
-    }
   }
   
   .newsBlock__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     list-style-type: none;
     margin: 0 -10px;
 
+    @include breakpoint('tablet') {
+      margin: 0 -20px;
+    }
+
+    @include breakpoint('small') {
+      margin: 0 -15px;
+    }
+
     .list__item {
-      // width: 30%;
+      width: 316px;
       margin: 40px 10px;
 
+      @include breakpoint('medium') {
+        width: 300px;
+      }
+
+      @include breakpoint('tablet') {
+        width: 324px;
+        margin: 40px 20px;
+      }
+
+      @include breakpoint('small') {
+        width: 100%;
+        margin: 20px 15px;
+      }
+
+      &:hover {
+        .title {
+          color: $coral;
+        }
+      }
+
       img {
-        width: 316px;
-        height: 220px;
+        width: 100%;
+        height: auto;
         margin-bottom: 15px;
       }
 
@@ -38,11 +57,15 @@
         color: $dark-gray;
         font-weight: 600;
         margin-bottom: 20px;
+
+        @include breakpoint('small') {
+          font-size: 20px;
+          line-height: 30px;
+          margin-bottom: 15px;
+        }
       }
 
       .subtitle {
-        font-size: 18px;
-        line-height: 24px;
         color: $black;
         font-weight: 300;
         margin-bottom: 15px;

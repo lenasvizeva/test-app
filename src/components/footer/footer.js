@@ -4,8 +4,8 @@ import css from './style.module.scss'
 const Footer = () => {
   return (
     <div className={css.footer}>
-      <span className='label2'>2005-2019</span>
-      <span className='label2'>Сделано в <a href='#'>CreativePeople</a></span>
+      <p className='label'>2005—2019 © «Метро»</p>
+      <p className='label'>Сделано в <a href='#'>CreativePeople</a></p>
     </div>
   )
 }

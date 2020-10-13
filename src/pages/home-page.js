@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, Navigation, AboutSlider, Footer, Accordion, News } from '../components'
+import { Header, Navigation, AboutSlider, Footer, Gallery, News } from '../components'
 import css from './style.module.scss'
 
 const HomePage = () => {
@@ -14,7 +14,7 @@ const HomePage = () => {
         
         <div className='wrapper'>
 
-          <div className={css.h1}>
+          <div className={css.h1} id='anchor1'>
             <h1>О нас</h1>
           </div>
           
@@ -22,7 +22,7 @@ const HomePage = () => {
             <Navigation />
           </div>
           
-          <div className={css.textBlock} id='anchor1'>
+          <div className={css.textBlock}>
             <p>Селекция бренда, анализируя результаты рекламной кампании, 
               осмысленно масштабирует SWOT-анализ. Перераспределение бюджета, 
               как следует из вышесказанного, переворачивает коллективный контент. 
@@ -71,16 +71,16 @@ const HomePage = () => {
         </div>
 
         <div className='accordion-gallery'>
-          <Accordion />
+          <Gallery />
         </div>
 
         <div className='wrapper'>
 
-          <div className={css.h2}>
+          <div className={css.h2} id='anchor2'>
             <h2>Новости</h2>
           </div>
 
-          <div id='anchor2'>
+          <div>
             <News />
           </div>
 
