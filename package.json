@@ -2,7 +2,7 @@
   "name": "test-cp",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://lyingunderagreentree.github.io/test-app",
   "dependencies": {
     "@n8tb1t/use-scroll-position": "^1.0.47",
     "cra-template": "1.0.3",

@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import css from './style.module.scss'
 import cn from 'classnames'
 import NewsFilter from './news-filter'
+import { HOME_URL } from '../../config'
 
-// const BASE_NAME = '/test-app'
 const NEWS_COUNT = 9
 
 class News extends Component {
@@ -28,7 +28,7 @@ class News extends Component {
   }
 
   componentDidMount() {
-    fetch('/data/news-data.json', {
+    fetch(HOME_URL + '/data/news-data.json', {
       headers : { 
         'Content-Type': 'application/json',
         'Accept': 'application/json'
