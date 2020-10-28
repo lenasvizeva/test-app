@@ -102,7 +102,7 @@ class News extends Component {
             data.slice(0, this.state.newsLoaded).map((item) => {
               return (
                 <a href="#" className={css.list__item} key={item.id}>
-                  <img src={`${item.pic}`} />
+                  <img src={`${HOME_URL}${item.pic}`} />
                   <p className={css.title}>{item.title}</p>
                   <p className={cn('label', css.subtitle)}>{item.subtitle}</p>
                   <span className={css.date}>
