@@ -1,5 +1,11 @@
 import React from 'react'
-import { Header, Navigation, AboutSlider, Footer, Gallery, News } from '../components'
+import { 
+  Header, 
+  Navigation, 
+  AboutSlider, 
+  Gallery, 
+  News,
+  Footer } from '../components'
 import css from './style.module.scss'
 
 const HomePage = () => {
@@ -89,16 +95,11 @@ const HomePage = () => {
           </div>
 
         </div>
-       
-        
 
       </div>
 
     </div>
-
-    
   )
-  
 }
 
 export default HomePage
