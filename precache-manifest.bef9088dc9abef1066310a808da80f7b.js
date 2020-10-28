@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "49f604e46852f1c725828360127a1080",
+    "revision": "1c7a1331094c1b56b6682ed0bd3fe9f0",
     "url": "/test-app/index.html"
   },
   {
-    "revision": "b224dd5279ea15dc1a80",
+    "revision": "b379be3f3093787dffd7",
     "url": "/test-app/static/css/2.d8895298.chunk.css"
   },
   {
-    "revision": "e3319c290450bc8807e8",
-    "url": "/test-app/static/css/main.611d7b4c.chunk.css"
+    "revision": "e9e9888b44f300eba5b3",
+    "url": "/test-app/static/css/main.eba0c7de.chunk.css"
   },
   {
-    "revision": "b224dd5279ea15dc1a80",
-    "url": "/test-app/static/js/2.046c18bd.chunk.js"
+    "revision": "b379be3f3093787dffd7",
+    "url": "/test-app/static/js/2.8be4640e.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/test-app/static/js/2.046c18bd.chunk.js.LICENSE.txt"
+    "url": "/test-app/static/js/2.8be4640e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e3319c290450bc8807e8",
-    "url": "/test-app/static/js/main.46505ee7.chunk.js"
+    "revision": "e9e9888b44f300eba5b3",
+    "url": "/test-app/static/js/main.e3e3cce7.chunk.js"
   },
   {
     "revision": "4aba60fc77892364e556",
@@ -66,42 +66,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "96a4caef383591c33614ebf3e3bf7cca",
     "url": "/test-app/static/media/logo.96a4caef.svg"
-  },
-  {
-    "revision": "c83c6a016c5c782ca5f0f23bfea9b3c1",
-    "url": "/test-app/static/media/news00.c83c6a01.jpg"
-  },
-  {
-    "revision": "316523c37d2ee5a6af41d2b179e401ad",
-    "url": "/test-app/static/media/news01.316523c3.jpg"
-  },
-  {
-    "revision": "42504059dd5a30a4bbd3a72a07606b01",
-    "url": "/test-app/static/media/news02.42504059.jpg"
-  },
-  {
-    "revision": "a58236f35d5cef28e7cfbec081199c2c",
-    "url": "/test-app/static/media/news03.a58236f3.jpg"
-  },
-  {
-    "revision": "5bb4201b12886509cc3b212f2832a365",
-    "url": "/test-app/static/media/news04.5bb4201b.jpg"
-  },
-  {
-    "revision": "6a5226d1f5e8588739591a2975054ad3",
-    "url": "/test-app/static/media/news05.6a5226d1.jpg"
-  },
-  {
-    "revision": "2af2501e7add3d3bbf8d7e2168643281",
-    "url": "/test-app/static/media/news06.2af2501e.jpg"
-  },
-  {
-    "revision": "15364eebc2a5d45f9f00b32f15dfa893",
-    "url": "/test-app/static/media/news07.15364eeb.jpg"
-  },
-  {
-    "revision": "4e84eecc919fdfa11eb9ccd8ecadfe6c",
-    "url": "/test-app/static/media/news08.4e84eecc.jpg"
   },
   {
     "revision": "ecf3cff3d4f0f662982957726f448bef",
