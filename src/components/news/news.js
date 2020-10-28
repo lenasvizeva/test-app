@@ -3,6 +3,7 @@ import css from './style.module.scss'
 import cn from 'classnames'
 import NewsFilter from './news-filter'
 
+// const BASE_NAME = '/test-app'
 const NEWS_COUNT = 9
 
 class News extends Component {
@@ -18,8 +19,8 @@ class News extends Component {
       loading: true,
       error: null,
       newsLoaded: NEWS_COUNT
-    } 
-    
+    }
+
     this.yearOnChange = this.yearOnChange.bind(this)
     this.monthOnChange = this.monthOnChange.bind(this)
     this.getFilteredData = this.getFilteredData.bind(this)
