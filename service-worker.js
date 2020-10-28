@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://lyingunderagreentree.github.io/test-app/precache-manifest.fba6f276bae9a631c94f878b72597ac1.js"
+  "https://lyingunderagreentree.github.io/test-app/precache-manifest.24a85b653d3ceecfee705d552fcb751a.js"
 );
 
 self.addEventListener('message', (event) => {
