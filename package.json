@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "PUBLIC_URL=https://lyingunderagreentree.github.io/test-app react-scripts build",
+    "build": "PUBLIC_URL=/test-app react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
