@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/test-app/static/css/main.eba0c7de.chunk.css",
-    "main.js": "/test-app/static/js/main.f126c7e4.chunk.js",
-    "main.js.map": "/test-app/static/js/main.f126c7e4.chunk.js.map",
+    "main.css": "/test-app/static/css/main.4d784bb7.chunk.css",
+    "main.js": "/test-app/static/js/main.2376381c.chunk.js",
+    "main.js.map": "/test-app/static/js/main.2376381c.chunk.js.map",
     "runtime-main.js": "/test-app/static/js/runtime-main.8cfc24cd.js",
     "runtime-main.js.map": "/test-app/static/js/runtime-main.8cfc24cd.js.map",
     "static/css/2.d8895298.chunk.css": "/test-app/static/css/2.d8895298.chunk.css",
-    "static/js/2.3b568462.chunk.js": "/test-app/static/js/2.3b568462.chunk.js",
-    "static/js/2.3b568462.chunk.js.map": "/test-app/static/js/2.3b568462.chunk.js.map",
+    "static/js/2.03539606.chunk.js": "/test-app/static/js/2.03539606.chunk.js",
+    "static/js/2.03539606.chunk.js.map": "/test-app/static/js/2.03539606.chunk.js.map",
     "index.html": "/test-app/index.html",
-    "precache-manifest.7a199a2da18dccc1f1af7a66cee95f73.js": "/test-app/precache-manifest.7a199a2da18dccc1f1af7a66cee95f73.js",
+    "precache-manifest.ce999d29410812ee89960ea772e06817.js": "/test-app/precache-manifest.ce999d29410812ee89960ea772e06817.js",
     "service-worker.js": "/test-app/service-worker.js",
     "static/css/2.d8895298.chunk.css.map": "/test-app/static/css/2.d8895298.chunk.css.map",
-    "static/css/main.eba0c7de.chunk.css.map": "/test-app/static/css/main.eba0c7de.chunk.css.map",
-    "static/js/2.3b568462.chunk.js.LICENSE.txt": "/test-app/static/js/2.3b568462.chunk.js.LICENSE.txt",
+    "static/css/main.4d784bb7.chunk.css.map": "/test-app/static/css/main.4d784bb7.chunk.css.map",
+    "static/js/2.03539606.chunk.js.LICENSE.txt": "/test-app/static/js/2.03539606.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/test-app/static/media/slick.f97e3bbf.svg",
     "static/media/style.module.scss": "/test-app/static/media/quote_icon.dcabe403.svg",
     "static/media/gallery.scss": "/test-app/static/media/plus_icon.ecf3cff3.svg",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.8cfc24cd.js",
     "static/css/2.d8895298.chunk.css",
-    "static/js/2.3b568462.chunk.js",
-    "static/css/main.eba0c7de.chunk.css",
-    "static/js/main.f126c7e4.chunk.js"
+    "static/js/2.03539606.chunk.js",
+    "static/css/main.4d784bb7.chunk.css",
+    "static/js/main.2376381c.chunk.js"
   ]
 }
