@@ -4,6 +4,12 @@
 .slider {
   position: relative;
 
+  .sliderItem {
+    &:focus {
+      background-color: blanchedalmond;
+    }
+  }
+
   img {
     width: 100%;
     object-fit: cover;

@@ -32,10 +32,17 @@
   }
 
   .logo {
-    height: 28px;
+    width: 104px;
+    position: absolute;
+    left: calc(50% - 52px);
 
     @include breakpoint('small') {
-      height: 20px;
+      width: 74px;
+      left: calc(50% - 37px);
+    }
+
+    img {
+      width: 100%;
     }
   }
 

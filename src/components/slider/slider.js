@@ -7,23 +7,28 @@ import cn from 'classnames'
 const slides = [
   {
     id: 1,
-    imgSrc: sliderPic
+    imgSrc: sliderPic,
+    imgText: '1'
   },
   { 
     id: 2,
-    imgSrc: sliderPic
+    imgSrc: sliderPic,
+    imgText: '2'
   },
   {
     id: 3,
-    imgSrc: sliderPic
+    imgSrc: sliderPic,
+    imgText: '3'
   },
   {
     id: 4,
-    imgSrc: sliderPic
+    imgSrc: sliderPic,
+    imgText: '4'
   },
   {
     id: 5,
-    imgSrc: sliderPic
+    imgSrc: sliderPic,
+    imgText: '5'
   }
 ]
 
@@ -82,7 +87,7 @@ class AboutSlider extends Component {
           {
             slides.map((slide) => {
               return (
-                <div key={slide.id}>
+                <div className={css.sliderItem} key={slide.id}>
                   <img src={slide.imgSrc} />
                 </div>
               )
